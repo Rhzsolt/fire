@@ -1,21 +1,5 @@
 *{
     box-sizing: border-box;
 }
-#one{
-    background-color: aquamarine;
-    height: 150px;
-    position: relative;
-}
-#ker{
-    position: absolute;
-    right: 600px;
-    top: 5px;
-    text-align: center;
-    font-size: 50px;
-}
-#two{
-    position: absolute;
-    right: 700px;
-    bottom: 10px;
 
-}
+
