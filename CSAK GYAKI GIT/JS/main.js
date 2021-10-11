@@ -1,6 +1,6 @@
 
 /*
-JEGY VÁSÁRLÓ ALKLALMAZÁS*/
+JEGY VÁSÁRLÓ ALKLALMAZÁS
 var quantity = prompt('Kérem a darabszámot!');
 
 var tipus = prompt('Milyen jegyet kér ?')
@@ -20,7 +20,30 @@ var discont = quantity > 10 ?  0.9 : 1 ;
 var total= price * quantity * discont;
 
 alert(total);
+}*/
+
+let weekDay = new Date().getDay()
+
+let dayName = '';
+
+switch(weekDay){
+    case 0: dayName ='Vasárnap'
+    break;
+    case 1: dayName ='Hétfő'
+    break;
+    case 2:dayName ='Kedd'
+    break;
+    case 3:dayName ='Szerda'
+    break;
+    case 4:dayName ='Csütörtök'
+    break;
+    case 5:dayName ='Péntek'
+    break;
+    case 6:dayName ='Szombat'
+    break;
 }
+
+document.getElementById('first').innerHTML = dayName;
 
 
 
