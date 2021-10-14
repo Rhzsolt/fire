@@ -1,6 +1,6 @@
 
 /*
-JEGY VÁSÁRLÓ ALKLALMAZÁS
+JEGY VÁSÁRLÓ ALKLALMAZÁS 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 var quantity = prompt('Kérem a darabszámot!');
 
 var tipus = prompt('Milyen jegyet kér ?')
@@ -22,37 +22,10 @@ var total= price * quantity * discont;
 alert(total);
 }*/
 
-let weekDay = new Date().getDay()
-
-let dayName = '';
-
-switch(weekDay){
-    case 0: dayName ='Vasárnap'
-    break;
-    case 1: dayName ='Hétfő'
-    break;
-    case 2:dayName ='Kedd'
-    break;
-    case 3:dayName ='Szerda'
-    break;
-    case 4:dayName ='Csütörtök'
-    break;
-    case 5:dayName ='Péntek'
-    break;
-    case 6:dayName ='Szombat'
-    break;
-}
-
-document.getElementById('first').innerHTML = dayName;
 
 
 
-
-
-
-
-
-/*TÖMBÖK OBJEKTUMOK*/
+/*TÖMBÖK OBJEKTUMOK00000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
 /*var egy =
 [
     'kettő',
@@ -137,12 +110,120 @@ case '18': alert(18)
     break;
     default : alert('Kutya tudja')}*/
 
-   /* switch(true){
-        case age<18: alert('Fiatal')
-            break;
-            case age>20 && age<40: alert('Öregszik')
-            break;
-            default : alert('Kutya tudja')}*/
-    
-   
+/* switch(true){
+     case age<18: alert('Fiatal')
+         break;
+         case age>20 && age<40: alert('Öregszik')
+         break;
+         default : alert('Kutya tudja')}*/
 
+/* Ez főleg számokra nézi az állítást
+ var x =prompt('Hány éves vagy') 
+
+if(x>18){ alert('Nagykorú')}
+else if(x==18){alert('Épp hogy')}
+else if(x<18){alert('Kicsike')}
+else{'Jobb számot'};*/
+
+/*switch a sewitch ben !!!
+
+var x = prompt('Éhes vagy igen/nem?');
+switch (x) {
+    case 'igen': var y = prompt('Mit ennél húst vagy pitét?');
+        switch (y) {
+            case 'húst': alert('Sose volt');
+                break;
+            default: alert('Na egyél pitét')
+            case 'pitét': var z = prompt('Milyen pitét almásat vagy meggyeset')
+
+                switch (z) {
+                    case 'almásat': alert('Most fogyott el!')
+                        break;
+                    case 'meggyeset': alert('Sose volt')
+                        break;
+                    default: alert('Na próbáld beírni.....')
+                }
+        }
+        break;
+    case 'nem': alert('jó neked')
+        break
+
+    default: alert('Menni fog !Próbáld beírni')
+        break;
+}*/
+let weekDay = new Date().getDay()
+
+let dayName = '';
+
+switch (weekDay) {
+    case 0: dayName = 'Vasárnap'
+        break;
+    case 1: dayName = 'Hétfő'
+        break;
+    case 2: dayName = 'Kedd'
+        break;
+    case 3: dayName = 'Szerda'
+        break;
+    case 4: dayName = 'Csütörtök'
+        break;
+    case 5: dayName = 'Péntek'
+        break;
+    case 6: dayName = 'Szombat'
+        break;
+}
+
+document.getElementById('first').innerHTML = dayName;
+
+/*FÜGGVÉNY 
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+SUBRUTINE*/
+
+
+/*function rántotta() {
+    console.log('Vegyél tojást');
+    console.log('Vegyél vajat');
+    console.log('-------------');
+    fűszererk();
+    console.log('-------------');
+    console.log('Süsd meg');
+   
+    
+} 
+
+function fűszererk(){
+
+    console.log('Só');
+    console.log('Bors');
+    console.log('Paprika');
+}
+rántotta();
+console.log('---------------------------');*/
+
+
+
+
+/*function adOne(szám){
+   console.log( szám  ) 
+}
+
+
+adOne(8)
+adOne(75)
+adOne(89)---------------------------------------------------------------------------*/
+
+/*function adOne(szám){
+    return szám+1
+ }
+ console.log(adOne(21))*/
+
+
+ /*function adtwo(szám){
+
+    return {
+        1:3,
+        2:4,
+        3:5,
+    }[szám]
+ }
+ console.log(adtwo(1));*/
+ 
