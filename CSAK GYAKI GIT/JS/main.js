@@ -214,7 +214,7 @@ adOne(89)-----------------------------------------------------------------------
 /*function adOne(szám){
     return szám+1
  }
- console.log(adOne(21))*/
+ console.log(adOne(adOne(adOne(1))))*/
 
 
  /*function adtwo(szám){
@@ -227,3 +227,9 @@ adOne(89)-----------------------------------------------------------------------
  }
  console.log(adtwo(1));*/
  
+
+ var adthree = function(szám){
+
+return szám+3;
+ }
+console.log(adthree(3))
