@@ -217,19 +217,40 @@ adOne(89)-----------------------------------------------------------------------
  console.log(adOne(adOne(adOne(1))))*/
 
 
- /*function adtwo(szám){
+/*function adtwo(szám){
 
-    return {
-        1:3,
-        2:4,
-        3:5,
-    }[szám]
- }
- console.log(adtwo(1));*/
- 
+   return {
+       1:3,
+       2:4,
+       3:5,
+   }[szám]
+}
+console.log(adtwo(1));*/
 
- var adthree = function(szám){
+
+/*var adthree = function(szám){
 
 return szám+3;
- }
-console.log(adthree(3))
+}
+console.log(adthree(3))*/
+
+
+var window = {
+    console: {
+        log: function () {
+
+        }
+
+    }
+};
+window.console.log('Szia')
+
+document.querySelector('.blue').onclick = function(){
+  document.getElementById('red').style.backgroundColor = 'red'  
+}
+
+
+
+
+
+
